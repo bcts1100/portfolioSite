@@ -1,0 +1,79 @@
+.navbar{
+    display: flex;
+    justify-content: flex-end;
+    background-color: gray;
+}
+.section1{
+background-color: grey;
+height: 80px;
+width: auto;
+}
+.aboutme{
+display: flex;
+background-color: aliceblue;
+height: 200px;
+}
+#aboutmetext{
+    display: flex;
+    margin: auto;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+#aboutmeimage{
+    display: flex;
+}
+.portfolio{
+    display: flex;
+    flex: 4;
+   align-items: center;
+   padding: 25px;
+    background-color: antiquewhite;
+    justify-content: center;
+
+}
+#box{
+    display: flex;
+    margin: auto;
+    border: 8px;
+    border-radius: 18px;
+    border-color: rgb(145, 145, 158);
+    border-style: ridge;
+    height: 150px;
+    width: 150px;
+}
+#box1{
+    display: flex;
+    margin: auto;
+    border: 8px;
+    border-radius: 18px;
+    border-color: rgb(145, 145, 158);
+    border-style: ridge;
+    height: 150px;
+    width: 150px;
+}
+#box2{
+    display: flex;
+    margin: auto;
+    border: 8px;
+    border-radius: 18px;
+    border-color: rgb(145, 145, 158);
+    border-style: ridge;
+    height: 150px;
+    width: 150px;
+}
+#box3{
+    display: flex;
+    margin: auto;
+    border: 8px;
+    border-radius: 18px;
+    border-color: rgb(145, 145, 158);
+    border-style: ridge;
+    height: 150px;
+    width: 150px;
+}
+.footer{
+    display: flex;
+    height: 80px;
+    background-color: grey;
+}
