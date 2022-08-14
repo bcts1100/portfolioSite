@@ -14,16 +14,26 @@ body{
 .section1{
 display: flex;
 margin-top: 5px;
-background-color: rgb(161, 161, 161);
-height: 120px;
+background-color: grey;
+height: 350px;
 width: auto;
 
+}
+.spacer{
+    display: flex;
+margin-top: 5px;
+background-color: grey;
+height: 350px;
+width: auto;
 }
 .aboutme{
 display: flex;
 background-color: grey;
 height: 200px;
 box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+border-radius: 15px;
+margin-bottom: 555px;
+margin-top: 555px;
 
 }
 #aboutmetext{
@@ -39,12 +49,13 @@ box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
     display: flex;
     
     border-radius: 50%/50%;
-    margin-right: 50px;
+    margin-top: 25px;
+    margin-right: 120px;
     margin-bottom: 25px;
 }
 .portfolio{
     display: flex;
-    margin-top: 25px;
+    margin-top: 5px;
     flex: 4;
    align-items: center;
    padding: 25px;
