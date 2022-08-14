@@ -5,16 +5,26 @@
     background-color: gray;
     font-size: 32px;
    padding: 15px;
+   box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+   border-radius: 5px;
+}
+body{
+    background-color: grey;
 }
 .section1{
-background-color: grey;
-height: 80px;
+display: flex;
+margin-top: 5px;
+background-color: rgb(161, 161, 161);
+height: 120px;
 width: auto;
+
 }
 .aboutme{
 display: flex;
 background-color: grey;
 height: 200px;
+box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
+
 }
 #aboutmetext{
     display: flex;
@@ -27,11 +37,14 @@ height: 200px;
 }
 #aboutmeimage{
     display: flex;
+    
+    border-radius: 50%/50%;
     margin-right: 50px;
     margin-bottom: 25px;
 }
 .portfolio{
     display: flex;
+    margin-top: 25px;
     flex: 4;
    align-items: center;
    padding: 25px;
@@ -43,6 +56,10 @@ height: 200px;
      text-align: center;
      font-size: 42px;
      font-weight: bold;
+     background-color:rgb(161, 161, 161);
+     height: 50px;
+     width: auto;
+     box-shadow: 0 7px 20px 0 rgb(0 0 0 / 80%), 0 4px 10px 0 rgb(0 0 0 / 20%);
 }
 #box{
     display: flex;
